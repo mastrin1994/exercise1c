@@ -24,7 +24,7 @@
 	</Appenders>
 	<Loggers>
 		<Root level="info" additivity="false">
-			<appender-ref ref="console" level="info"/>
+			<!-- <appender-ref ref="console" level="info"/> -->
             <appender-ref ref="file-log" level="info" />
 		</Root>
 	</Loggers>
